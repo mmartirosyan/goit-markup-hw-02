@@ -91,6 +91,8 @@ body {
 .block-one .main-button {
   border: none;
   line-height: 30px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .site-nav .link {
@@ -99,6 +101,7 @@ body {
   line-height: 16px;
   font-size: 14px;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .site-nav .link:hover,
@@ -126,6 +129,10 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.default-list-contacts-header {
+  color: var(--default-text-color);
 }
 
 .default-list-contacts:hover,
